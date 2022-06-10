@@ -35,11 +35,13 @@ ul{
   padding: 0px;
   width: 300px;
   margin-left: 93px;
+  max-width: 100%;
 }
 
 section{
   border: 9px solid blue;
   width: 500px;
+  max-width: 100%;
 } 
 
 .link:hover{
@@ -63,12 +65,12 @@ a{
 
 
 img{
-  max-width: 100%;
   border-radius: 1cm;
 }
 
-img:hover{
-  border: 0.3cm solid silver;
+img{
+  border: 0.2cm solid silver;
+  max-width: 100%;
 }
 
 
